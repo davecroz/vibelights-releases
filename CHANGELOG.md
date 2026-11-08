@@ -2,6 +2,11 @@
 
 What changed in each release of Vibelights, newest first.
 
+## 0.2.0 (2026-11-08)
+
+- Patch has a DMX Universe view: all 512 channels at a glance, showing which fixture uses each channel, what it does, and the value being sent. Drag a fixture (or several) to give it a new DMX Address, or double-click a free channel to add fixtures there
+- The generic RGBW Par has a 5-channel mode (dimmer, red, green, blue, white), now the default for new Shows and when adding one. Shows saved before this gain the mode too, so their Pars can be switched to it
+
 ## 0.1.0 (2026-11-06)
 
 - First release: Looks that stack, fade and Release, Pages of Look buttons, the Master and a live Stage Plan, driving DMX fixtures through an ENTTEC DMX USB Pro
