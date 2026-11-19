@@ -2,6 +2,11 @@
 
 What changed in each release of Vibelights, newest first.
 
+## 0.2.1 (2026-11-18)
+
+- The generic RGBW Par has a "5-channel RGB" mode for Pars whose 5-channel mode is dimmer, red, green, blue and shutter/strobe, with no white channel. White is mixed from red, green and blue, and the shutter is held open. It's now the default for new Shows and when adding the Par. If white stays dark on your Pars in 5-channel mode, select them in Patch and choose this mode
+- Select several fixtures in Patch to change their Mode together, as one Undo step
+
 ## 0.2.0 (2026-11-08)
 
 - Patch has a DMX Universe view: all 512 channels at a glance, showing which fixture uses each channel, what it does, and the value being sent. Drag a fixture (or several) to give it a new DMX Address, or double-click a free channel to add fixtures there
