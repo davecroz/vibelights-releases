@@ -2,6 +2,10 @@
 
 What changed in each release of Vibelights, newest first.
 
+## 0.2.2 (2026-11-18)
+
+- On a Mac without its own Lighting Engine, the screen for choosing an Engine now offers to install the Engine on that Mac (also still in Settings)
+
 ## 0.2.1 (2026-11-18)
 
 - The generic RGBW Par has a "5-channel RGB" mode for Pars whose 5-channel mode is dimmer, red, green, blue and shutter/strobe, with no white channel. White is mixed from red, green and blue, and the shutter is held open. It's now the default for new Shows and when adding the Par. If white stays dark on your Pars in 5-channel mode, select them in Patch and choose this mode
